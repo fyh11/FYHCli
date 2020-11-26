@@ -1,6 +1,6 @@
 {
   "name": "fyhcli",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "cli脚手架工具",
   "main": "index.js",
   "bin": {
