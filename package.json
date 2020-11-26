@@ -1,10 +1,10 @@
 {
-  "name": "fyh",
-  "version": "1.1.0",
+  "name": "fyhcli",
+  "version": "1.0.0",
   "description": "CLI front-end development tools",
   "main": "index.js",
   "bin": {
-    "fyh": "index.js"
+    "fyhcli": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,10 +17,10 @@
   ],
   "author": "fyh",
   "license": "MIT",
-  "homepage": "https://github.com/fyh11/FYHCli",
+  "homepage": "https://github.com/fyh11/fyhcli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fyh11/FYHCli"
+    "url": "https://github.com/fyh11/fyhcli"
   },
   "dependencies": {
     "chalk": "^4.1.0",

@@ -6,7 +6,7 @@
 如何安装？
 
 ```shell
-npm install fyh -g
+npm install fyhcli -g
 ```
 
 ## 创建项目
@@ -24,7 +24,7 @@ vue项目模块已经帮你配置：
 创建项目
 
 ```shell
-fyh create your_project_name
+fyhcli create your_project_name
 ```
 
 自动拉取项目模板、安装项目依赖、打开浏览器 `http://localhost:8080/`、自动启动项目
@@ -44,8 +44,8 @@ fyh create your_project_name
 ### 创建Vue组件：
 
 ````shell
-fyh addcpn YourComponentName # 例如fyh add NavBar，默认会存放到src/components文件夹中
-fyh addcpn YourComponentName -d src/pages/home # 也可以指定存放的具体文件夹
+fyhcli addcpn YourComponentName # 例如fyhcli add NavBar，默认会存放到src/components文件夹中
+fyhcli addcpn YourComponentName -d src/pages/home # 也可以指定存放的具体文件夹
 ````
 
 
@@ -53,8 +53,8 @@ fyh addcpn YourComponentName -d src/pages/home # 也可以指定存放的具体�
 ### 创建Vue页面，并配置路由
 
 ```shell
-fyh addpage YourPageName # 例如fyh addpage Home，默认会放到src/pages/home/Home.vue中，并且会创建src/page/home/router.js
-fyh addpage YourPageName -d src/views # 也可以指定文件夹，但需要手动集成路由
+fyhcli addpage YourPageName # 例如fyhcli addpage Home，默认会放到src/pages/home/Home.vue中，并且会创建src/page/home/router.js
+fyhcli addpage YourPageName -d src/views # 也可以指定文件夹，但需要手动集成路由
 ```
 
 为什么会创建router.js文件：
@@ -78,8 +78,8 @@ const routes = files.keys().map(key => {
 ### 创建Vuex子模块
 
 ```shell
-fyh addstore YourVuexChildModuleName # 例如fyh addstore home，默认会放到src/store/modules/home/index.js和types.js
-fyh addstore YourVuexChildModuleName -d src/vuex/modules # 也可以指定文件夹
+fyhcli addstore YourVuexChildModuleName # 例如fyhcli addstore home，默认会放到src/store/modules/home/index.js和types.js
+fyhcli addstore YourVuexChildModuleName -d src/vuex/modules # 也可以指定文件夹
 ```
 
 创建完成后，不需要手动配置，已经动态将所有子模块集成进去：
@@ -107,14 +107,14 @@ files.keys().filter(key => {
 
 # Documentation
 
-## `fyh`: A CLI to help you quickly build and develop front-end projects
+## `fyhcli`: A CLI to help you quickly build and develop front-end projects
 
-> Can't think of other names, so just use fyh~
+> Can't think of other names, so just use fyhcli~
 
 How to install？
 
 ```shell
-npm install fyh -g
+npm install fyhcli -g
 ```
 
 ## Create project
@@ -132,7 +132,7 @@ The vue project module has been configured for you:
 Create project
 
 ```shell
-fyh create your_project_name
+fyhcli create your_project_name
 ```
 
 Automatically pull project templates, install project dependencies, open browsers, `http://localhost:8080/`and automatically start projects
@@ -148,15 +148,15 @@ Project development currently provides three functions:
 ### Create Vue components:
 
 ```shell
-addcpn YourComponentName fyh # example fyh add NavBar, the default will be stored in src / components folder 
-fyh addcpn YourComponentName -d src / Pages and the / Home # specific file can also specify the destination folder
+addcpn YourComponentName fyhcli # example fyhcli add NavBar, the default will be stored in src / components folder 
+fyhcli addcpn YourComponentName -d src / Pages and the / Home # specific file can also specify the destination folder
 ```
 
 ### Create a Vue page and configure routing
 
 ```shell
-addPage YourPageName fyh # example fyh addpage Home, the default will put src / pages / home / Home.vue, and will create a src / Page / Home / router.js 
-fyh addPage YourPageName -d src / views # You can also specify a folder , But need to integrate routing manually
+addPage YourPageName fyhcli # example fyhcli addpage Home, the default will put src / pages / home / Home.vue, and will create a src / Page / Home / router.js 
+fyhcli addPage YourPageName -d src / views # You can also specify a folder , But need to integrate routing manually
 ```
 
 Why is the router.js file created:
@@ -178,8 +178,8 @@ const  routes  =  files . Keys ( ) . Map ( key  =>  {
 ### Create Vuex submodule
 
 ```shell
-addstore YourVuexChildModuleName fyh # example fyh addstore home, the default will put src / store / modules / home / index.js and types.js 
-fyh addstore YourVuexChildModuleName -d src / vuex / modules # You can also specify a folder
+addstore YourVuexChildModuleName fyhcli # example fyhcli addstore home, the default will put src / store / modules / home / index.js and types.js 
+fyhcli addstore YourVuexChildModuleName -d src / vuex / modules # You can also specify a folder
 ```
 
 After the creation is completed, no manual configuration is required, and all sub-modules have been dynamically integrated:
