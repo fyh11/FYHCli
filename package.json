@@ -1,7 +1,7 @@
 {
   "name": "fyhcli",
   "version": "0.0.1",
-  "description": "CLI front-end development tools",
+  "description": "cli脚手架工具",
   "main": "index.js",
   "bin": {
     "fyhcli": "index.js"
